@@ -1,0 +1,36 @@
+html{
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(243, 243, 184);
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+p{
+    color: rgb(174, 218, 53);
+    font-size: 16px;
+    line-height: 2;/*行间距，设置数字时为此数字乘字体尺寸大小*/
+    letter-spacing: 1px;/*文字间距*/
+}
+body{
+    width: 600px;
+    margin: 0 auto;/* margin、padding属性仅仅设置两个值时，第一个值是上下外边距，第二个值是左右的外边距。auto是特殊值，表示水平方向上的左右对称 */
+    background-color: antiquewhite;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;/* solid 表示实线 */
+}
+h1{
+    margin: 0;
+    padding: 20px 0;
+    color: rgb(243, 243, 184);
+    text-shadow: 5px 5px 5px black;
+    /* text-shadow 的值说明：阴影水平移动（由正左负） 阴影垂直移动（下正上负） 阴影模糊半径（半径越小阴影越集中） 阴影的基色
+     */
+}
+img{
+    display: block;
+    margin: 0 auto;
+    /* 因为img元素是内联元素，不具备块级元素的 外边距、内边距等属性，所以需要用display：block给予img 块级行为
+    */
+}
